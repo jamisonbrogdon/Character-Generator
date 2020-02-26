@@ -1,0 +1,60 @@
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+
+$borderRadius: 8px;
+$baseFont: 16px;
+
+body{
+  font-family:'Open Sans', arial, helvetica, sans-serif; 
+  text-align:center;
+}
+h1{
+  margin:50px 0 0;
+  padding:0;
+}
+button{
+  padding:18px 60px;
+  border-radius: $borderRadius;
+  border:0px none;
+  background-color:#FF4242;
+  margin:24px;
+  color:#fff;
+  font-size: $baseFont;
+  outline:none;
+}
+button:hover{
+  cursor:pointer;
+  background:#D4372C;
+}
+ul.col-xs-8{
+  list-style:none;
+  padding:24px;
+  background:#f2f2f2;
+  border-radius: $borderRadius;
+}
+li{
+  background:#fff;
+  border:1px solid #e3e3e3;
+  border-left-width:0px;
+  text-align:left;
+  padding:12px;
+}
+li:first-child{
+  border-radius:$borderRadius 0 0 $borderRadius;
+  border-left-width:1px;
+}
+li.last{
+  border-radius:0 $borderRadius $borderRadius 0;
+}
+span{ 
+  font-size: $baseFont; 
+  text-transform: capitalize;
+}
+label{
+  display:block;
+  font-size:11px;
+  color:#999;
+  padding:0 0 6px;
+}
+.clear{
+  clear: both;
+}
